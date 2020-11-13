@@ -1,0 +1,11 @@
+{
+    "name": "hupesoftware/composer",
+    "homepage": "https://hupesoftware.github.io/composer",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lucasvscn/composer-installer-plugin.git"
+        }
+    ],
+    "require-all": true
+}

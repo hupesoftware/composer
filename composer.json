@@ -1,0 +1,19 @@
+{
+    "name": "hupesoftware/composer",
+    "description": "Hüpe Software Composer Repository",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Vasconcelos",
+            "email": "lucas@vscn.co"
+        }
+    ],
+    "require": {
+        "composer/satis": "^1.0"
+    },
+    "scripts": {
+        "build": [
+            "vendor/bin/satis build satis.json dist"
+        ]
+    }
+}

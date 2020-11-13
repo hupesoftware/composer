@@ -1,2 +1,1 @@
-# composer
-Hüpe Software Composer Repository
+# Hüpe Software Composer Repository
