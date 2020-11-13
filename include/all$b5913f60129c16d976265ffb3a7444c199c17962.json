@@ -1,0 +1,105 @@
+{
+    "packages": {
+        "albertcht/invisible-recaptcha": {
+            "dev-laravel-8": {
+                "name": "albertcht/invisible-recaptcha",
+                "version": "dev-laravel-8",
+                "version_normalized": "dev-laravel-8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucasvscn/invisible-recaptcha.git",
+                    "reference": "8c6c502c684fc1ee2db4c0df99b970f848cf53bc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucasvscn/invisible-recaptcha/zipball/8c6c502c684fc1ee2db4c0df99b970f848cf53bc",
+                    "reference": "8c6c502c684fc1ee2db4c0df99b970f848cf53bc",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2|^7.0.1",
+                    "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+                    "php": "^5.6.4 || ^7.0"
+                },
+                "require-dev": {
+                    "illuminate/view": "^5.0|^6.0|^7.0|^8.0",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "time": "2020-10-08T15:40:46+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "AlbertCht\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "AlbertCht\\InvisibleReCaptcha\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Albert Chen",
+                        "homepage": "https://www.albert-chen.com"
+                    }
+                ],
+                "description": "Invisible reCAPTCHA For Laravel.",
+                "keywords": [
+                    "captcha",
+                    "invisible",
+                    "invisible-recaptcha",
+                    "laravel",
+                    "laravel5",
+                    "no-captcha",
+                    "php",
+                    "recaptcha"
+                ],
+                "support": {
+                    "source": "https://github.com/lucasvscn/invisible-recaptcha/tree/laravel-8"
+                }
+            }
+        },
+        "novosga/composer-installer-plugin": {
+            "dev-master": {
+                "name": "novosga/composer-installer-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lucasvscn/composer-installer-plugin.git",
+                    "reference": "981f214fc3166604ac6bdf27e377fbd5f512131e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lucasvscn/composer-installer-plugin/zipball/981f214fc3166604ac6bdf27e377fbd5f512131e",
+                    "reference": "981f214fc3166604ac6bdf27e377fbd5f512131e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0|^2.0"
+                },
+                "time": "2020-11-13T15:57:10+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Novosga\\Composer\\ModuleInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Novosga\\Composer\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/lucasvscn/composer-installer-plugin/tree/master"
+                }
+            }
+        }
+    }
+}
