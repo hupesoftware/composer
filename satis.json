@@ -4,15 +4,10 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/lucasvscn/composer-installer-plugin.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/lucasvscn/invisible-recaptcha.git"
         }
     ],
     "require": {
-        "novosga/composer-installer-plugin": "dev-master",
         "albertcht/invisible-recaptcha": "dev-laravel-8"
     }
 }
