@@ -63,43 +63,6 @@
                     "source": "https://github.com/lucasvscn/invisible-recaptcha/tree/laravel-8"
                 }
             }
-        },
-        "novosga/composer-installer-plugin": {
-            "dev-master": {
-                "name": "novosga/composer-installer-plugin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/lucasvscn/composer-installer-plugin.git",
-                    "reference": "981f214fc3166604ac6bdf27e377fbd5f512131e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/lucasvscn/composer-installer-plugin/zipball/981f214fc3166604ac6bdf27e377fbd5f512131e",
-                    "reference": "981f214fc3166604ac6bdf27e377fbd5f512131e",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer-plugin-api": "^1.0|^2.0"
-                },
-                "time": "2020-11-13T15:57:10+00:00",
-                "type": "composer-plugin",
-                "extra": {
-                    "class": "Novosga\\Composer\\ModuleInstallerPlugin"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Novosga\\Composer\\": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/lucasvscn/composer-installer-plugin/tree/master"
-                }
-            }
         }
     }
 }
