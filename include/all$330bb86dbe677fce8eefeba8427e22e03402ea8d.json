@@ -63,6 +63,44 @@
                     "source": "https://github.com/lucasvscn/invisible-recaptcha/tree/laravel-8"
                 }
             }
+        },
+        "gfapro/websocket-server": {
+            "0.2.1": {
+                "name": "gfapro/websocket-server",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:gfapro/websocket-server.git",
+                    "reference": "cc4c963c69f1bbfeaf92c974d84eb8eb028c5a10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/gfapro/websocket-server/zipball/cc4c963c69f1bbfeaf92c974d84eb8eb028c5a10",
+                    "reference": "cc4c963c69f1bbfeaf92c974d84eb8eb028c5a10",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.1.3",
+                    "symfony/console": "^4.0",
+                    "workerman/phpsocket.io": "^1.1"
+                },
+                "time": "2021-02-12T20:55:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Novosga\\Websocket\\": "src//"
+                    }
+                },
+                "license": [
+                    "MIT",
+                    "proprietary"
+                ],
+                "support": {
+                    "source": "https://github.com/gfapro/websocket-server/tree/0.2.1",
+                    "issues": "https://github.com/gfapro/websocket-server/issues"
+                }
+            }
         }
     }
 }
