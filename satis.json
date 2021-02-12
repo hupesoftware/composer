@@ -5,9 +5,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/lucasvscn/invisible-recaptcha.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:gfapro/websocket-server.git"
         }
     ],
     "require": {
-        "albertcht/invisible-recaptcha": "dev-laravel-8"
+        "albertcht/invisible-recaptcha": "dev-laravel-8",
+        "gfapro/websocket-server": "^0.2.1"
     }
 }
